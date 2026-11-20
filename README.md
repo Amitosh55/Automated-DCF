@@ -6,6 +6,11 @@ My Automated DCF is a Python-based desktop application built to deliver precisio
 
 Getting started with a valuation requires just a few clicks from the top control bar. You can enter a stock ticker such as HCLTECH.NS, pick a scenario preset like Base or Bear, and select a preferred candlestick chart timeframe such as 6mo or 1y. Clicking Run DCF automatically loads the historical price chart alongside baseline model assumptions, calculates the implied share price against the current market price, and outputs a clear Buy, Overweight, Underweight, or Sell view complete with percentage upside or downside commentary.
 
+<img width="1079" height="719" alt="image" src="https://github.com/user-attachments/assets/24428a73-0ac1-49b6-bdfe-bac9fc53385a" />
+
+
+
+
 Every assumption behind the valuation can be customised through the scrollable Model Drivers panel on the left side of the interface. Under Growth, you can set the forecast horizon—dynamically expanding or contracting individual year-by-year revenue growth inputs—and adjust the base revenue growth rate. Margins and capital efficiency are equally flexible, allowing you to fine-tune Gross Margin, EBIT Margin, Capex, Depreciation and Amortisation, and Net Working Capital as percentages of revenue to match your view of the business.
 
 For discounting and long-term value estimation, the application includes a full WACC builder alongside dual terminal value options. You can configure the Risk-Free Rate, Equity Risk Premium, Beta, Pre-Tax Cost of Debt, Tax Rate, and Target Debt-to-Capital ratio directly in the panel. Depending on the sector and maturity of the company, you can switch seamlessly between the Gordon Growth method using a terminal growth rate and the Exit Multiple approach using an EV/EBITDA multiple.
